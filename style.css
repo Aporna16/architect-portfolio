@@ -56,10 +56,21 @@ header section{
   align-items: center;
 }
 .grid-container2{
+    border: 1px solid red;
   width: 75%;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 6em;
+}
+.cards{
+    border: 1px solid green;
+}
+.card-img{
+    overflow: hidden;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+    
 }
 .cards article{
   padding: 0.5em 2.5em;
